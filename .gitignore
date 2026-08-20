@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# Secrets — никогда не коммитить
+.env
+.env.*
+!.env.example
+!env.example.txt
+
+# Runtime / local data
+history.json
+**/history.json
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Builds / binaries
+dist/
+build/
+*.exe
+*.spec
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Sample local files (не для публичного репо)
+data/
+
+# Jupyter
+.ipynb_checkpoints/
